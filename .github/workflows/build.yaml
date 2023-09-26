@@ -24,5 +24,6 @@ jobs:
           java-version: '17'
 
       - run: java --version
-      - run: java HelloWorldApp.java
+      - run: javac HelloWorldJava.java
+      - run: java HelloWorldJava.class
 
